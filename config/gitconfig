@@ -1,0 +1,7 @@
+[user]
+    name = Matt Hough
+    email = matt@hough.tv
+[github]
+    user = mjhough 
+[credential]
+    helper = osxkeychain

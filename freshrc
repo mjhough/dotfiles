@@ -1,0 +1,34 @@
+# See http://freshshell.com/readme for documentation.
+fresh freshshell/fresh bin/fresh --bin
+
+# config
+fresh config/\* --file
+
+# shell
+fresh shell/\* --file
+
+# vim
+fresh-options --file=~/.vimrc --marker=\"
+  fresh vim/leader.vim
+  fresh vim/vundle_before.vim
+  fresh vim/vundle.vim
+  fresh vim/plugins.vim
+  fresh vim/vundle_after.vim
+  fresh vim/global.vim
+  fresh vim/config/\*.vim
+  fresh vim/auto_commands.vim
+fresh-options
+fresh vim/colors --file=~/.vim/colors/
+
+init_vim() {
+  if which vim &> /dev/null && ! [ -d $HOME/.vim/bundle/vundle ]; then
+    vim || [ -d $HOME/.vim/bundle/vundle ]
+  fi
+}
+
+# bin
+#fresh bin/\* --bin
+
+fresh_after_build() {
+  init_vim
+}
