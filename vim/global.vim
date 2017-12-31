@@ -21,6 +21,7 @@ set spelllang=en_au                        " Set default spelling language to En
 set shortmess+=I                           " Disable splash screen
 set noequalalways                          " Don't equalize when opening/closing windows
 hi clear SignColumn
+set clipboard=unnamed
 
 " Indentation
 set shiftwidth=2                           " Number of spaces to use in each autoindent step

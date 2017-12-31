@@ -12,7 +12,7 @@ fresh-options --file=~/.vimrc --marker=\"
   fresh vim/leader.vim
   fresh vim/vundle_before.vim
   fresh vim/vundle.vim
-  fresh vim/plugins.vim
+  fresh vim/plugins/\*.vim
   fresh vim/vundle_after.vim
   fresh vim/global.vim
   fresh vim/config/\*.vim
