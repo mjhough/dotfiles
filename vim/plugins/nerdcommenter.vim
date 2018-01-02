@@ -1,5 +1,4 @@
 " Add spaces after comment delimiters by default
-let g:NERDSpaceDelims = 1
+" let g:NERDSpaceDelims = 1
 
-noremap [count]<leader>cc <plug>NERDCommenterToggle
-noremap [count]<leader>c<space> <plug>NERDCommenterComment
+" noremap [count]<leader>ccc <plug>NERDCommenterToggle
