@@ -9,5 +9,5 @@ map <Leader>f :NERDTreeToggle<CR>
 map <Leader>F :NERDTreeFind<CR>
 
 " Toggle comments with ,c
-map [count]<Leader>cc <plug>NERDCommenterToggle
+map <Leader>cc <plug>NERDCommenterToggle
 
