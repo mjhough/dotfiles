@@ -99,6 +99,7 @@ export PATH=$(npm bin):/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/s
 
 eval "$(rbenv init -)"
 
+export PATH=~/anaconda3/bin:$PATH
 
 # Sets LC_CTYPE to UTF-8
 export LC_CTYPE="en_US.UTF-8"
