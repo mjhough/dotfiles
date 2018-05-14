@@ -103,3 +103,6 @@ export PATH=~/anaconda3/bin:$PATH
 
 # Sets LC_CTYPE to UTF-8
 export LC_CTYPE="en_US.UTF-8"
+
+#set vi mode
+set -o vi
