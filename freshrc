@@ -11,11 +11,7 @@ fresh shell/\* --file
 fresh-options --file=~/.vimrc --marker=\"
   fresh vim/leader.vim
   fresh vim/vundle_before.vim
-
-  call plug#begin('~/.vim/plugged')
   fresh vim/plugins.vim
-  call plug#end()
-
   fresh vim/plugins/\*.vim
   fresh vim/vundle_after.vim
   fresh vim/global.vim

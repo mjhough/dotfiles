@@ -1,3 +1,4 @@
+call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
@@ -11,3 +12,5 @@ Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-fugitive'
 Plug 'slim-template/vim-slim.git'
 Plug 'scrooloose/nerdcommenter'
+call plug#end()
+
