@@ -1,3 +1,3 @@
-let g:gruvbox_vert_split='bg1'
+let g:gruvbox_vert_split='dark0'
 
 set background=dark
