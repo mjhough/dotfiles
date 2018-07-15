@@ -1,7 +1,7 @@
 " Run the YCM install script after installing plugin
 function! BuildYCM(info)
   if a:info.status == 'installed' || a:info.force
-    !./install.py
+    !/usr/local/bin/python3 ./install.py --all
   endif
 endfunction
 
