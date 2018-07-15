@@ -1,3 +1,5 @@
-let g:gruvbox_vert_split=['#1d2021', 234]
+let g:gruvbox_vert_split='dark0'
+
+colorscheme gruvbox
 
 set background=dark
