@@ -19,5 +19,6 @@ Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-fugitive'
 Plug 'slim-template/vim-slim'
 Plug 'scrooloose/nerdcommenter'
+Plug 'morhetz/gruvbox'
 call plug#end()
 

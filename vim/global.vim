@@ -54,4 +54,4 @@ set ignorecase                             " Ignore case by default when searchi
 set smartcase                              " Switch to case sensitive mode if needle contains uppercase characters
 
 " Default colourscheme
-colorscheme monakai
+colorscheme gruvbox
