@@ -5,4 +5,4 @@ map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
 " Overwrite the g:rspec_command variable to execute a custom command
-let g:rspec_command = "!bundle exec rspec"
+let g:rspec_command = "!clear && bundle exec spring rspec {spec}"
