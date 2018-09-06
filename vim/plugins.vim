@@ -21,5 +21,6 @@ Plug 'slim-template/vim-slim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-unimpaired'
+Plug 'thoughtbot/vim-rspec'
 call plug#end()
 
