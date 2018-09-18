@@ -111,5 +111,5 @@ export PATH=/Users/hough/Library/Android/sdk/platform-tools:$PATH
 # Add SageMath to path
 export PATH=/Users/hough/sage/bin:$PATH
 
-#set vi mode
-set -o vi
+#set emacs mode
+set -o emacs
