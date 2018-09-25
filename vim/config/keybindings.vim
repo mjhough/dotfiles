@@ -21,4 +21,4 @@ nnoremap <slient> <Left> <c-w-h>
 map ; :Files<CR>
 
 " Go to middle of text on a line with gm
-map gm :exe 'normal '.(virtcol('$')/2).'|'
+map gm :call cursor(0, virtcol('$')/2)<CR>
