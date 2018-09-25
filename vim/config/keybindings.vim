@@ -19,3 +19,6 @@ nnoremap <slient> <Left> <c-w-h>
 
 " Open fzf file finder with ;
 map ; :Files<CR>
+
+" Go to middle of text on a line with gm
+map gm :exe 'normal '.(virtcol('$')/2).'|'
