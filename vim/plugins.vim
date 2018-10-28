@@ -22,5 +22,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-unimpaired'
 Plug 'thoughtbot/vim-rspec'
+Plug 'lervag/vimtex'
 call plug#end()
 
