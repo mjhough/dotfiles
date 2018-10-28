@@ -110,3 +110,6 @@ export PATH=/Users/hough/Library/Android/sdk/platform-tools:$PATH
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# MATLAB alias for in-terminal MATLAB
+alias matlab='/Applications/MATLAB_R2017b.app/bin/matlab -nodesktop -nosplash $*'
