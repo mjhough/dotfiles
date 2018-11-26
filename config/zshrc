@@ -119,3 +119,6 @@ if [ -f '/Users/hough/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/hough/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/hough/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Export Google App credentials
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/hough/pinch/test-project-0fd8f78df6e8.json
