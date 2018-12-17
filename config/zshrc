@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/hough/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -125,3 +125,11 @@ export GOOGLE_APPLICATION_CREDENTIALS=/Users/hough/pinch/test-project-0fd8f78df6
 export PATH='$HOME/.rbenv/bin:$PATH'
 export PATH='$HOME/.rbenv/plugins/ruby-build/bin:$PATH'
 eval '$(rbenv init -)'
+
+# CUDA
+export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export CUDA_VISIBLE_DEVICES=0
+
+# SNAP
+export PATH=$PATH:/snap/bin
