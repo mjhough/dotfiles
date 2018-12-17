@@ -97,8 +97,6 @@ export EDITOR='vim'
 
 export PATH=$(npm bin):/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:$PATH
 
-eval "$(rbenv init -)"
-
 export PATH=~/anaconda3/bin:$PATH
 
 # Sets LC_CTYPE to UTF-8
@@ -122,3 +120,7 @@ if [ -f '/Users/hough/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '
 
 # Export Google App credentials
 export GOOGLE_APPLICATION_CREDENTIALS=/Users/hough/pinch/test-project-0fd8f78df6e8.json
+
+# rbenv
+export PATH='$HOME/.rbenv/bin:$PATH'
+eval '$(rbenv init -)'
