@@ -100,7 +100,7 @@ export PATH=$(npm bin):/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/s
 export PATH=~/anaconda3/bin:$PATH
 
 # Sets LC_CTYPE to UTF-8
-export LC_CTYPE="en_US.UTF-8"
+# export LC_CTYPE="en_US.UTF-8"
 
 # Set Android SDK path & platform tools
 export ANDROID_SDK=/Users/hough/Library/Android/sdk
