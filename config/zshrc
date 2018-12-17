@@ -122,9 +122,9 @@ if [ -f '/Users/hough/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '
 export GOOGLE_APPLICATION_CREDENTIALS=/Users/hough/pinch/test-project-0fd8f78df6e8.json
 
 # rbenv
-export PATH='$HOME/.rbenv/bin:$PATH'
-export PATH='$HOME/.rbenv/plugins/ruby-build/bin:$PATH'
-eval '$(rbenv init -)'
+export PATH=$HOME/.rbenv/bin:$PATH
+export PATH=$HOME/.rbenv/plugins/ruby-build/bin:$PATH
+eval $(rbenv init -)
 
 # CUDA
 export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
