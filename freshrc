@@ -31,9 +31,9 @@ fresh-options --file=~/.vimrc --marker=\"
   fresh vim/auto_commands.vim
 
   if [[ "$(uname)" == "Darwin" ]]; then
-    fresh vim/global-mac.vim --file=~/.gitconfig
+    fresh vim/global-mac.vim
   else
-    fresh vim/global-arch.vim --file=~/.gitconfig
+    fresh vim/global-arch.vim
   fi
 
 fresh-options
