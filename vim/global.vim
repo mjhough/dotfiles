@@ -2,7 +2,7 @@ syntax on                                  " Turn on syntax highlighting
 filetype plugin indent on                  " Enable automatic filetype detection, filetype-specific plugins/indentation
 set nocompatible                           " Don't need to keep compatibility with Vi
 set hidden                                 " Allow hiding buffers with unsaved changes
-" set listchars=trail:.,tab:▸\ ,eol:¬        " Change the invisible characters- NOT WORKING IN LINUX
+set listchars=trail:.,tab:▸\ ,eol:¬        " Change the invisible characters- NOT WORKING IN LINUX
 set fillchars+=vert:\                      " Hide pipes on vertical splits
 set showcmd                                " Show incomplete cmds down the bottom
 set showmode                               " Show current mode down the bottom
@@ -21,7 +21,14 @@ set spelllang=en_au                        " Set default spelling language to En
 set shortmess+=I                           " Disable splash screen
 set noequalalways                          " Don't equalize when opening/closing windows
 hi clear SignColumn
-set clipboard=unnamed
+
+" Use system clipboard in vim
+" If Mac use unnamed else (Linux) use unnamedplus
+if [[ "$(uname)" == "Darwin" ]]; then
+  set clipboard=unnamed
+else
+  set clipboard=unnamedplus
+fi
 
 " Indentation
 set shiftwidth=2                           " Number of spaces to use in each autoindent step
