@@ -10,11 +10,11 @@ fresh config/psqlrc --file
 fresh config/rspec --file
 
 if [[ "$(uname)" == "Darwin" ]]; then
-  fresh fresh config/gitconfig-mac --file=~/.gitconfig
-  fresh fresh config/zshrc-mac --file=~/.zshrc
+  fresh config/gitconfig-mac --file=~/.gitconfig
+  fresh config/zshrc-mac --file=~/.zshrc
 else
-  fresh fresh config/gitconfig-arch --file=~/.gitconfig
-  fresh fresh config/zshrc-arch --file=~/.zshrc
+  fresh config/gitconfig-arch --file=~/.gitconfig
+  fresh config/zshrc-arch --file=~/.zshrc
 fi
 
 # shell
@@ -31,9 +31,9 @@ fresh-options --file=~/.vimrc --marker=\"
   fresh vim/auto_commands.vim
 
   if [[ "$(uname)" == "Darwin" ]]; then
-    fresh fresh vim/global-mac.vim --file=~/.gitconfig
+    fresh vim/global-mac.vim --file=~/.gitconfig
   else
-    fresh fresh vim/global-arch.vim --file=~/.gitconfig
+    fresh vim/global-arch.vim --file=~/.gitconfig
   fi
 
 fresh-options
