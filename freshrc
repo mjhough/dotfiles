@@ -2,7 +2,20 @@
 fresh freshshell/fresh bin/fresh --bin
 
 # config
-fresh config/\* --file
+fresh config/bowerrc --file
+fresh config/gemrc --file
+fresh config/gitignore --file
+fresh config/irbrc --file
+fresh config/psqlrc --file
+fresh config/rspec --file
+
+if [[ "$(uname)" == "Darwin" ]]; then
+  fresh fresh config/gitconfig-mac --file=~/.gitconfig
+  fresh fresh config/zshrc-mac --file=~/.zshrc
+else
+  fresh fresh config/gitconfig-arch --file=~/.gitconfig
+  fresh fresh config/zshrc-arch --file=~/.zshrc
+fi
 
 # shell
 fresh shell/\* --file
@@ -14,8 +27,13 @@ fresh-options --file=~/.vimrc --marker=\"
   fresh vim/plugins.vim
   fresh vim/plugins/\*.vim
   fresh vim/after_hook.vim
-  fresh vim/global.vim
   fresh vim/config/\*.vim
   fresh vim/auto_commands.vim
+
+  if [[ "$(uname)" == "Darwin" ]]; then
+    fresh fresh vim/global-mac.vim --file=~/.gitconfig
+  else
+    fresh fresh vim/global-arch.vim --file=~/.gitconfig
+  fi
 
 fresh-options

@@ -24,11 +24,7 @@ hi clear SignColumn
 
 " Use system clipboard in vim
 " If Mac use unnamed else (Linux) use unnamedplus
-if [[ "$(uname)" == "Darwin" ]]; then
-  set clipboard=unnamed
-else
-  set clipboard=unnamedplus
-fi
+set clipboard=unnamedplus
 
 " Indentation
 set shiftwidth=2                           " Number of spaces to use in each autoindent step
