@@ -4,7 +4,9 @@
 [github]
     user = mjhough 
 [credential]
+if [[ "$(uname)" == "Darwin" ]]; then
     helper = osxkeychain
+fi
 [alias]
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all

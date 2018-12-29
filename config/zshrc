@@ -2,12 +2,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-if [ "foo" = "foo" ]; then
-               echo expression evaluated as true
-            else
-               echo expression evaluated as false
-            fi
-
 if [[ "$(uname)" == "Darwin" ]]; then
   ZSH=$HOME/.oh-my-zsh
 else
