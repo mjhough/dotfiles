@@ -21,7 +21,14 @@ set spelllang=en_au                        " Set default spelling language to En
 set shortmess+=I                           " Disable splash screen
 set noequalalways                          " Don't equalize when opening/closing windows
 hi clear SignColumn
-set clipboard=unnamed
+set clipboard=unnamed                      " Use system clipboard
+set undofile                               " Use undo file for unlimited undos
+set undodir=~/.vim/undodir                 " Set directory to store undos
+
+" Delete undo files that are > 90 days old
+let s:undos = split(globalpath(&undodir, '*'), "\n")
+call filter(s:undos, 'getftime(v:val) < localtime() - (60 * 60 * 24 * 90)')
+call map(s:undos, 'delete(v:val)')
 
 " Indentation
 set shiftwidth=2                           " Number of spaces to use in each autoindent step
