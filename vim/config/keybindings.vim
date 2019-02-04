@@ -17,6 +17,10 @@ nnoremap <silent> <Down> <c-w-j>
 nnoremap <silent> <Right> <c-w-l>
 nnoremap <slient> <Left> <c-w-h>
 
+" Use <leader>d to actually delete
+nnoremap <leader>d "_d
+xnoremap <leader>d "_d
+
 " Open fzf file finder with ;
 map ; :Files<CR>
 
