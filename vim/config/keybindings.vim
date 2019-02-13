@@ -5,8 +5,8 @@ noremap <Left> <NOP>
 noremap <Right> <NOP>
 
 " Open/close NERDTree Tabs with ,f
-map <Leader>f :NERDTreeToggle<CR>
-map <Leader>F :NERDTreeFind<CR>
+map <Leader>f :Sex!<CR>
+map <Leader>F :Ex<CR>
 
 " Toggle comments with ,cc
 map <Leader>cc <plug>NERDCommenterToggle
