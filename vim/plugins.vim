@@ -12,6 +12,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 " Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
 " Plug 'zxqfl/tabnine-vim'
+" Plug 'w0rp/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-fugitive'
