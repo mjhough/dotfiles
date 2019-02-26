@@ -153,5 +153,5 @@ export NVM_DIR="$HOME/.nvm"
 # Include .local/bin
 export PATH="$PATH:$HOME/.local/bin/"
 
-# Matlab fix for rofi
-export PATH="$PATH:$HOME/scripts/matlab_desktop"
+# Ranger
+RANGER_LOAD_DEFAULT_RC=FALSE
