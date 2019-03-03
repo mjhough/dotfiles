@@ -9,8 +9,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'tpope/vim-surround'
-" Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
+" Plug 'tpope/vim-surround'
+Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
 " Plug 'zxqfl/tabnine-vim'
 " Plug 'w0rp/ale'
 Plug 'Yggdroot/indentLine'
@@ -22,5 +22,5 @@ Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-unimpaired'
 Plug 'thoughtbot/vim-rspec'
 Plug 'lervag/vimtex'
+Plug 'xuhdev/vim-latex-live-preview'
 call plug#end()
-
