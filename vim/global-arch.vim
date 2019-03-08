@@ -25,6 +25,14 @@ hi clear SignColumn
 " Use system clipboard in vim
 " If Mac use unnamed else (Linux) use unnamedplus
 set clipboard=unnamedplus
+set undofile                               " Use undo file for unlimited undos
+set undodir=~/.vim/undodir                 " Set directory to store undos
+
+" Delete undo files that are > 90 days old
+" let s:undos = split(globalpath(&undodir, '*'), "\n")
+" call filter(s:undos, 'getftime(v:val) < localtime() - (60 * 60 * 24 * 90)')
+" call map(s:undos, 'delete(v:val)')
+
 
 " Indentation
 set shiftwidth=2                           " Number of spaces to use in each autoindent step
