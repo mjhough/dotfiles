@@ -152,6 +152,7 @@ function cdf() {
 }
 
 alias cdcs="~/Dropbox/Computer\ Science"
+alias ports='udevadm info --export-db |grep -i "^n: ttyu"'
 
 # Ranger
 RANGER_LOAD_DEFAULT_RC=FALSE
