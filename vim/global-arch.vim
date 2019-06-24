@@ -63,3 +63,7 @@ set matchtime=2                            " (for only .2 seconds).
 " Searching
 set ignorecase                             " Ignore case by default when searching
 set smartcase                              " Switch to case sensitive mode if needle contains uppercase characters
+
+" So I can see what line I am vertically and horizontally
+set cursorline
+set cursorcolumn

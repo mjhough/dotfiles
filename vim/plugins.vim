@@ -13,7 +13,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
 " Plug 'zxqfl/tabnine-vim'
 " Plug 'w0rp/ale'
-Plug 'thaerkh/vim-indentguides'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-fugitive'
 Plug 'slim-template/vim-slim'
