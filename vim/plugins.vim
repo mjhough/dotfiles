@@ -10,7 +10,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 " Plug 'tpope/vim-surround'
-Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
+Plugin 'zxqfl/tabnine-vim'
 " Plug 'zxqfl/tabnine-vim'
 " Plug 'w0rp/ale'
 Plug 'Raimondi/delimitMate'
