@@ -94,6 +94,7 @@ source ~/.fresh/build/shell.sh
 
 # Custom Stuff...
 export EDITOR='vim'
+export TERM=xterm-256color 
 
 # Figure out wtf this does
 # export PATH=$(npm bin):/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:$PATH
