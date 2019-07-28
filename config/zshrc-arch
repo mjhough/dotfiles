@@ -152,6 +152,10 @@ function cdf() {
   cd "$(get_fdir)"
 }
 
+function open() {
+  xdg-open "$1" &> /dev/null
+}
+
 alias cdcs="~/Dropbox/Computer\ Science"
 alias ports='udevadm info --export-db |grep -i "^n: ttyu"'
 
