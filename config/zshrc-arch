@@ -157,6 +157,7 @@ function open() {
 }
 
 alias cdcs="~/Dropbox/Computer\ Science"
+alias cdcs="~/Dropbox/Math"
 alias ports='udevadm info --export-db |grep -i "^n: ttyu"'
 
 # Ranger
