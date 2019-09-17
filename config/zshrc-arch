@@ -99,7 +99,7 @@ export TERM=xterm-256color
 # Figure out wtf this does
 # export PATH=$(npm bin):/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:$PATH
 
-source /opt/anaconda/bin/activate
+alias conda370="source /opt/anaconda/bin/activate cs370"
 
 # Sets LC_CTYPE to UTF-8
 # export LC_CTYPE="en_US.UTF-8"
