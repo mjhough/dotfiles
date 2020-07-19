@@ -143,7 +143,11 @@ function open() {
 
 alias cdcs="~/Dropbox/Computer\ Science"
 alias cdm="~/Dropbox/Math"
+alias cdc="~/Dropbox/code"
 alias ports='udevadm info --export-db |grep -i "^n: ttyu"'
 
 # Ranger
 RANGER_LOAD_DEFAULT_RC=FALSE
+
+# Custom NPM location
+export PATH=~/.npm-global/bin:$PATH
