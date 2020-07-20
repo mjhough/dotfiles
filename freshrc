@@ -24,6 +24,7 @@ fresh shell/\* --file
 fresh-options --file=~/.vimrc --marker=\"
   fresh vim/leader.vim
   fresh vim/before_hook.vim
+  fresh vim/custom.vim
   fresh vim/plugins.vim
   fresh vim/plugins/\*.vim
   fresh vim/after_hook.vim
